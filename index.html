@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preload" href="script.js" as="script" />
+		<link rel="icon" href="scr/logo/code-solid.svg" />
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<title>The zone</title>
+	</head>
+
+	<body>
+		<div class="bar">
+			<div class="bar_title">Welcome to the zone</div>
+		</div>
+		<div class="main">
+			<img class="logo" src="https://picsum.photos/300/200" alt="logo" />
+
+			<div class="search">
+				<input
+					class="search-bar"
+					maxlength="2048"
+					type="text"
+					spellcheck="true"
+					value=""
+					placeholder="Enter value to search in google"
+				/>
+				<button class="search-button">Search</button>
+			</div>
+		</div>
+		<div class="all-groups">
+			<div class="group-with-name">
+				<div class="title"><strong>Google</strong></div>
+				<div class="group" id="google">
+					<a
+						target="”_blank”"
+						href="https://www.youtube.com/?gl=IL"
+						title="Youtube"
+						class="link"
+						><img
+							class="small-img"
+							src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc"
+							alt="youtube"
+						/>
+						<div class="name">Youtube</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://drive.google.com/?authuser=0"
+						title="Google Drive"
+						class="link"
+						><img
+							class="small-img"
+							src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Drive.max-1100x1100.png"
+							alt="drive"
+						/>
+						<div class="name">Google Drive</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://mail.google.com/mail/"
+						title="Gmail"
+						class="link"
+						><img
+							class="small-img"
+							src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Gmail_2020.png"
+							alt="gmail"
+						/>
+						<div class="name">Gmail</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://keep.google.com/u/0"
+						title="Google Keep"
+						class="link"
+						><img
+							class="small-img"
+							src="https://www.google.com/images/icons/product/keep-512.png"
+							alt="keep"
+						/>
+						<div class="name">Google Keep</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://translate.google.co.il/?hl=iw"
+						title="Google Translate"
+						class="link"
+						><img
+							class="small-img"
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/800px-Google_Translate_logo.svg.png"
+							alt="translate"
+						/>
+						<div class="name">Google Translate</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://calendar.google.com/calendar"
+						title="Google Calendar"
+						class="link"
+						><img
+							class="small-img"
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/640px-Google_Calendar_icon_%282020%29.svg.png"
+							alt="calendar"
+						/>
+						<div class="name">Google Calendar</div>
+					</a>
+				</div>
+			</div>
+			<div class="group-with-name">
+				<div class="title"><strong>Online office</strong></div>
+				<div class="group" id="microsoft">
+					<a
+						target="”_blank”"
+						href="https://docs.google.com/document/?usp=docs_alc&authuser=0"
+						title="Google Docs"
+						class="link"
+						><img
+							class="small-img"
+							src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Docs.max-1100x1100.png"
+							alt="docs"
+						/>
+						<div class="name">Google Docs</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://docs.google.com/spreadsheets/?usp=sheets_alc&authuser=0"
+						title="Google Spreadsheets"
+						class="link"
+						><img
+							class="small-img"
+							src="https://lh3.ggpht.com/e3oZddUHSC6EcnxC80rl_6HbY94sM63dn6KrEXJ-C4GIUN-t1XM0uYA_WUwyhbIHmVMH=w300"
+							alt="spreadsheets"
+						/>
+						<div class="name">Google Spreadsheets</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://docs.google.com/presentation/?usp=slides_alc&authuser=0"
+						title="Google Presentation"
+						class="link"
+						><img
+							class="small-img"
+							src="https://blogs.shu.ac.uk/shutel/files/2014/08/GSlides.png"
+							alt="presentation"
+						/>
+						<div class="name">Google Presentation</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://www.office.com/launch/word?flight=unauthrefresh&auth=1"
+						title="Microsoft Word"
+						class="link"
+						><img
+							class="small-img"
+							src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Microsoft_Word_2013-2019_logo_with_background.png"
+							alt="word"
+						/>
+						<div class="name">Microsoft Word</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://www.office.com/launch/excel?flight=unauthrefresh&auth=1"
+						title="Microsoft Excel"
+						class="link"
+						><img
+							class="small-img"
+							src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDxENDRAQDQ0PEBANDw0NDRIODQ0VFRMWFhURFRUYHCggGBsxGxMfLT0iJS0tLi4uFys/ODMvNzQuLi0BCgoKDg0OGhAQGi8dIB0tLy0rKy0vLS0tLystLy0tLTItLS0rKy0tLysvLS0wKy0rLSstLS0tLS0tLS0tLSstLf/AABEIANkA6QMBEQACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAQUEBwIDBgj/xABCEAACAQIBBgsECgEDBQEAAAAAAQIDEQQFEiExUZEGBxMUMkFSYXGBsRUicqEjMzVCVJKUs9LwwTRDUxckJWKyFv/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAwEQEAAgEDAwIEBQMFAAAAAAAAAQIRAxIxBBNRMkEhcZHhMzRSgbEFYdEVIqHB8P/aAAwDAQACEQMRAD8A3iAAAAAADox2KjRpTrVNEKcJVJW12Svo7wpqXilZtPENQ5Y4Q4nFTcp1JQpt+7RpzcacF1LR0n3v5ajGbTL5rW6rV1ZzM4jxHH3VnKy7UvzMhhunycrLtS/Mwbp8nKy7UvzMG6fJysu1L8zBunycrLtS/Mwbp8nKy7UvzMG6fJysu1L8zBunycrLtS/Mwbp8nKy7UvzMG6fJysu1L8zBunyscFUlmL3nrfW9oZ2tOeXfny2vewjdPkz5bXvYN0+TPlte9g3T5M+W172DdPkz5bXvYN0+TPlte9g3T5M+W172DdPkz5bXvYN0+TPlte9g3T5WuRsv1sNNZ05VKN/fpyk5WW2N9T9S0Ww6+m67U0bfGc194/w2D7Rof8kd5pmH0ne0/LKJagAAAAAUfDb7PxHwx/8AuJW3Dk678vZqAyfNAAAAAAAAAAAAssF0F4v1DO3LvCoAAAAAAAAAAcuUlte8Lbp8twG77QAAAAACj4b/AGfiPhh+5Erbhydd+Xs1AZPmgAAAAAAAAAAAWWC6C8X6hnbl3hUAAAAAAAAAAAG4jd9sAAAAABR8N/s/EfDD9yJW3Dk678vZqAyfNAAAAAAAAAAAAssF0F4v1DO3LvCoAAAAAAAAAAANxG77YAAAAACj4b/Z+I+GH7kStuHJ135ezUBk+aAAAAAAAAAAABZYLoLxfqGduXeFQAAAAAAAAAAAbiN32wAAAAAFDw5dsnYh/wDrD9yJW3Dl638CzTvLdxk+c2nLdwNpy3cDact3A2nLdwNpy3cDact3A2nLdwNqY1dugImrsCoBZYLoLxfqGduXeFQAAAAAAAAAAAWPDThxXdaeGwU3RpUpOnOrC3KVZJ2lZ/dins0u2uxe1vD3+q6226a6c4iPd5F5bxn4vFfqqv8AIpmXD3tT9U/WUe28Z+LxX6qr/IZk72p+qfrJ7bxn4vFfqqv8hmTvan6p+so9t4z8Xiv1Vb+QzJ3tT9U/WT23jPxeK/VVf5DMne1P1T9ZcK2VsVOLhUxOIqQlrhPEVJwl16U3ZjMonVvMYm0z+8sPOe17yFDOe17wIznte8BnPa94EZz2veEmc9r3gM57XvA6K85QWfGclbWm2142ZMS0pi3wmGRhMoQnHS0pLQ1p3kyrqaU1lnU8VCy95fMhhNZy5c6p9pfMhG2VngcTDMXvLW9u0llas5d/OYdpfMI2yc5h2l8wbZOcw7S+YNsnOYdpfMG2TnMO0vmDbJzmHaXzBtk5zDtL5g2yc5h2l8wbZOcw7S+YNsnOYdpfMG2TnMO0vmDbLzEm223pbd29pDrQAAgABAAAEoAAQAAggAOvEdCXwy9CYWp6oVeT9b8C0unW4hZw1FHNLkELTAfVrxfqTDC/LIJVAAAAAAAAAAABVkN0AAIAAAlAACAAEACAAgDhX6Evhl6EwtX1Qqsn634f5LS6dbhaQ1FHNLkELTAfVrxfqTDC/LIJVAAAAAAAAAAABVENwCAAHtsi8X/PMPTxNLGRzaiu4vDO8JLRKD9/WmXimXoaXQ9ykWi3P9vuzf8ApXU/GQ/TP+ZPbX/02f1f8fd4LH4SdCrUoVVapSnKnJdV09a7uvwZnw8+9Zpaaz7McKobA9/geK+tUpQqVMTGjOcVKVJ0HJ021fNbz1dl+3L0a/0601iZtj9vu68q8XPNqFTE1sbBU6UXJ/8AbO76lFfSa22l4siaY90anQbKza1+P7fd4Mo88AAddfoS+GXoTC1fVCryfrfh/ktLp1uFpDUUc0uQQtMB9WvF+pMML8sglUAAAAAAAAAAAFSQ3AICQD2nFlwg5viOaVXahiZJRvqhV1Rfnq8bF6TiXd0Ovsvsni38/dt41e01lxs5Es4ZQprRK1CvZdf+3N+l+6JnePd5X9Q0eNSPlP8A01wZPMet4t8hc7xarVFehhc2pK+qc/uQ3q/l3l6RmXZ0Wj3L7p4r/Lc5s9xqXjS4RctWWBpP6GhK9Vp6J1ez4RXzb2GV7Z+Dx+v191u3HEc/P7PCGbz0ALhLrrv3ZfDL0JhNfVCsyfrfh/ktLp1uFpDUUc0uQQtMB9WvF+pMML8sglUAAAAAAAAAAAFSQ6EBAEoAX8u9awN4cBOEHPsKnN3xNG1KuuuTt7tTzS3pm1ZzD3uk1+7T48xz/wC/uucqYCGJoVMPVV4VYOD2q+qS709PkTMZb3pF6zWfd8/43J9WjXnhJxbrQqcjmxWmcr2jm+N1bxMJh87bTtW+yeeG8uCeRY4HCU8PodT6ytJffqS6T8FoS7oo3rGIe/0+jGlSK/X5sbhxwgWAwrnFrnFW9OhF9rrnbYlp8bLrItOIU6rX7VMxzPDRcm222223dtu7bettmDwEXAi4SgDrr9GXwy9CYWrzCuyfrfh/ktLo1uFpDUUc0uQQtMB9WvF+pMML8sglUAAAAAAAAAAAFQQ6EAAIAEC64IZdeAxUKzvyMvo68VpvBvpW2p6fK3WWrOJb9Nrdq+7292+Kc1JKUWpRklKMk7pp6U0zd9DE5UeL4M0qmUaWUna9OnKMoW6c1ZU5+UXLdHYV2/HLnt09Z1Y1PC8qVFGLlJqMYpylJuyilpbbLOiZw0Pwwy+8fipVlfkY/R0IvRaCfSa2t6dy6jC05l8/1Ot3b59vZRXKsEAAIuEuus/dl8MvQlavMK/J+t+H+S0t9bhaQ1FHNLkELTAfVrxfqTDC/LIJVAAAAAAAAAAABTkOhAAgAIAAbo4sKmIlk+PLr6OM5Rw8m/elTW3uUrpdy8L7U4e50M2nSjd+3yetLux5DjRniFk+XIfVucViWumqfd3Z1r93dcpfOHH127tTt/f5NLXMXiAEXCUXAgDhXfuy+GXoTC9I/wB0KvAVkm9HUXmHXq6UzCyhiVbUyuHPOjPly5ytjIwjsz5WGDxyUEs1631raOHPqaUxZ3+0F2XvQyp25PaC7L3oZO3J7QXZe9DJ25PaC7L3oZO3J7QXZe9DJ25PaC7L3oZO3J7QXZe9DJ25PaC7L3oZO3J7QXZe9DJ25PaC7L3oZO3J7Qj2X8hk7bCIaAACAAFzwSyDLH4qNDSqUfpK8192CepPa9S39RasZlv0+jOrfHt7t80KUacY04RUIQioRjFWjFJWSS2WN30ERERiFNT4TUZZRlkxP6SNJTU76HPTKVLxzLPeV3fHDGNevd7fuua9GNSEqdSKnCcXCcZK8ZRas0+6zLNpiJjEtBcLMhywGKnh3d039JRm/v03q81qfgc9oxLwNfRnSvNfb2UtyGKAASi4HXiOhL4ZehMcr09UfNT4LW/A0l6Gpwz4aiGMuRCGXh+ivMrPLl1fU7SGYAAAAAAAAAAAOYQgAAAQi5NRinKUmoxjFXlJt2SS63cJiMt68CuDywGFVOSTxFS1SvJabytognsS0b31m9a4h7/TaEaVMe88svhPlmOBwtTEys5RWbSg/wDcqPRGO/5Jk2nEL62rGnSbS0LSyhVhXWLU28QqvL8o9cp52c2/F9XeYZeBF7Rbf78voDIWVIYzDUsVT6NSN3G93CS0Sg+9NNeRvE5jL6HT1I1KxaPdUcPuDvP8K+TV8TQvUoPrlo96l5pb0iLVzDHqtHu0+HMcNFPv0PrT0NGDw0XAi4EBLhXfuS+GXoTC1PVHzVGC1vwNJehqcM+GohjLkQhl4forzKzy5dX1O0hmAAAAAAAAAAADkEAEARcJbD4quDfKT9o1o/R0244dNaJT1SqeC1LvvsNKV93o9BoZnuT7cNqGr1mmeNDL/OcVzam70MK3B21Tq6py8tXk9pjecy8brdbffbHEfy8Xco4nvuKbL3JV5YCo/o8RedK+qNVLTHzit8VtNKT7PQ6DW222T78fNtw1es07xqcHOb1+e0Y2oYmT5RLVTq62/CWvxT7jG9cTl5HW6O22+OJ/n7vCFHCi4Si4HXX6Evhl6ExytT1QqsFrfgaS9DU4Z8NRDGXIhDLw/RXmVnly6vqdpDMAAAAAAAAAAAEhBcJRcCaWbnR5TOUM5Z7gk5qN9ObfRe20JjGfi2lg+MvAUacKNLC4mFOnFQhFKloSVl9817keHq167SrGIifh8v8ALrynxp0ZUakcNRrwryg4051FTzIN6M52k9WvVrQnUL/1Cu2dsTlq1vbp73rZk8pFwlNKrKEozg3GcJKcJLXGUXdSXmgmJmJzDa2G418NmR5XD4jlc2PKcmqbp51tObed7X2mvcerHX0x8Ylj5Y4xsnYuhUw1bDYp06sc1tRo3i9akvf1ppPyIm8T8MK36zSvWazE/H5NWP8AvUZvMRcAEuuu/dl8MvQmOVqeqFXgtb8DSXfqcM+GohjLkQhl4forzKzy5dX1O0hmAAAAAAAAAAABcCAIuEouBAAJRcCLgQElwIuBASi4EXA663Rl8L9CY5Wp6oVuC1vwNJd+pwz4aiGMuRCGXh+ivMrPLl1fU7SGYAAAAAAAAAAAIYSi4EXAgJRcCLgAlFwIuBAEXCUXAgAEuus/dl8L9CY5Wp6oV2C1vwNJd2pwz4aiGMuRCGXh+ivMrPLl1fU7SGYAAAAAAAAAAAPW8O+CFfC16mIo05VcJVlKqpU4uToOTu4TS1K+p6rW6y9q4l29V0tqWm0RmJeNz1tW8pmHGjPW1bxmEoz1tW8ZgRnrat4zAjPW1byMwkz1tW8nIAAlAEAQEgHFgYOOxStmRd5PQ7akusvWvu6dHSnO6XVgtb8C0t78M+GohjLkQh2QrNKysMKW04tOZTziXduIwr2anOJd24YOzU5xLu3DB2anOJd24YOzU5xLu3DB2anOJd24YOzU5xLu3DB2anOJd24YOzU5xLu3DB2anOJd24YOzU5xLu3DB2avqI3e8hxWxbgIzFsW4BmLYtwMGYti3AwZi2LcDDynGrD/AMLjbJXzKfd/uwIlTUxFZfNXIS/rK5cm6DkJf1jJug5CX9YyboOQl/WMm6DkJf1jKd0HIS/rGTdByEv6xk3Q5woNDKJsy8NG1yJZXZkVoIZJIQAAAAAAAAAAAAAA+pzZ7IAAAAAHluND7HxnwU/3YETwz1fRL5zzTNwZM0GTNBkzQZM0GTNBkzQZSoEmWRRpW09foQztbLtIVAAAAAAAAAAAAAAAPqc2eyAAAAAB5njK+ycX8FP92BFuGWv+HL59sZPLLALALALALALASAAAAAAAAAAAAAAAAAAPqc2eyAAAAAB5njK+ycX8EP3YEW4Za/4cvn4yeWAAAAAAAAAAAAAAAAAAAAAAAAAD6nNnsgAAAAAeZ4yvsnF/BD92BFuGWv8Ahy+fjJ5YAAAAAAAAAAAAAAAAAAAAAAAALAfU5s9kAAAAADCy3k6OLw1bCzebGtTlTzkruLa0S8np8hKt67qzHl85ZZyTXwVZ4fFQdOor2f3Ki7cJfej/AF2egyeVas0nFmDchUuAuAuAuAuAuAuAuAuAuAuAuAuAuAuAuAuAuAuBbcGuD9fKNdUKEXm3XK1rfR0I9cm9ttS1veyYjK+npzqTiG8P/wAVk/8A4fmaYh6Xar4eiJaAAAAAAAPKcZH+ifxIrbhlrelqMo4gAAAAAAAAAAAAAAAAAAAAADdXAr/Q0vA0jh36fpXpK7//2Q=="
+							alt="excel"
+						/>
+						<div class="name">Microsoft Excel</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://www.office.com/launch/powerpoint?flight=unauthrefresh&auth=1"
+						title="Microsoft Powerpoint"
+						class="link"
+						><img
+							class="small-img"
+							src="data:image/png;base64,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"
+							alt="powerpoint"
+						/>
+						<div class="name">Microsoft Powerpoint</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://outlook.com/"
+						title="Microsoft Outlook"
+						class="link"
+						><img
+							class="small-img"
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/800px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
+							alt="outlook"
+						/>
+						<div class="name">Microsoft Outlook</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://onedrive.live.com/"
+						title="Microsoft Onedrive"
+						class="link"
+						><img
+							class="small-img"
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg/2560px-Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg.png"
+							alt="onedrive"
+						/>
+						<div class="name">Microsoft Onedrive</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="group-with-name">
+				<div class="title"><strong>Online Tools</strong></div>
+				<div class="group" id="tools">
+					<a
+						target="_blank"
+						href="https://tinywow.com/"
+						title="tinywow"
+						class="link"
+						><img
+							class="small-img"
+							style="width: 100px"
+							src="https://tinywow.com/v2/img/logo.svg"
+							alt="tinywow"
+						/>
+						<div class="name">Tiny Wow</div>
+					</a>
+					<a
+						target="_blank"
+						href="https://jpg2pdf.com/"
+						title="jpg2png"
+						class="link"
+						><img
+							class="small-img"
+							style="width: 100px"
+							src="https://jpg2pdf.com/images/jpg2pdf/logo.svg"
+							alt="jpg2pdf"
+						/>
+						<div class="name">JPG2PDF</div>
+					</a>
+					<a
+						target="_blank"
+						href="https://resize.deepapps.net/"
+						title="resize images"
+						class="link"
+						><img
+							class="small-img"
+							style="width: 100px"
+							src="https://resize.deepapps.net/assets/images/logo.svg"
+							alt="resize images"
+						/>
+						<div class="name">Resize Images</div>
+					</a>
+					<a
+						target="_blank"
+						href="js-console/index.html"
+						title="online Javascript console"
+						class="link"
+					>
+						<img
+							class="small-img"
+							src="https://miro.medium.com/max/512/1*8nVmVm-0DVswb_2Nr5Dr6g.png"
+							alt="JS logo"
+						/>
+						<div class="name">Javascript console</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="group-with-name">
+				<div class="title"><strong>transportation</strong></div>
+				<div class="group" id="transport">
+					<a
+						target="”_blank”"
+						href="https://www.rail.co.il/"
+						title="train"
+						class="link"
+						><img
+							class="small-img"
+							src="https://yt3.ggpht.com/ytc/AKedOLQB9L5rFTD9SZ8ESMEHwmacj0tK6iOyP90UlGJwag=s900-c-k-c0x00ffffff-no-rj"
+							alt="train"
+						/>
+						<div class="name">Israel Train</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://moovitapp.com/israel-1/poi/he"
+						title="moovit"
+						class="link"
+						><img
+							class="small-img"
+							src="https://softwares.center/wp-content/uploads/2017/02/54455454325.png"
+							alt="mooit"
+						/>
+						<div class="name">Moovit</div>
+					</a>
+					<a
+						target="”_blank”"
+						href="https://xn--4dbclabp0e.co.il/plan#/?"
+						title="near-bus"
+						class="link"
+						><img
+							class="small-img"
+							src="https://play-lh.googleusercontent.com/cI2FpQbJvqJdBk7S843A8yDrT6SMVEProyd1P4RyIIqYFNom3MrSeIw2kAcz8wo3to0"
+							alt="near-bus"
+						/>
+						<div class="name">Near Bun</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="quotes">
+			<p class="quote"></p>
+			<p class="author"></p>
+		</div>
+
+		<div class="resolution">
+			Your resolution:
+			<span id="resolutionNumber"></span>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
